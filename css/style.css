@@ -1,0 +1,51 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Cambria, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2a70b6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #ddd;
+    text-align: center;
+    padding: 15px;
+}
+
+.content-section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+
+#intro {
+    border-left: 5px solid #3498db;
+}
+
+#tips {
+    border-left: 5px solid #27ae60;
+}
+
+.highlight-text {
+    color: #c1c419;
+    font-weight: bold;
+}
+
+.flex-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
