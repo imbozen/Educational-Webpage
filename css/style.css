@@ -40,7 +40,7 @@ footer {
 }
 
 .highlight-text {
-    color: #c1c419;
+    color: #0d3b66;
     font-weight: bold;
 }
 
@@ -48,4 +48,17 @@ footer {
     display: flex;
     gap: 20px;
     padding: 20px;
+}
+
+.skip-link {
+    position: absolute;
+    left: -999px;
+}
+
+.skip-link:focus {
+    left: 10px;
+    top: 10px;
+    background: black;
+    color: white;
+    padding: 8px;
 }
