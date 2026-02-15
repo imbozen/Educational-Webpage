@@ -62,3 +62,24 @@ footer {
     color: white;
     padding: 8px;
 }
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
