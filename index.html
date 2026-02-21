@@ -2,6 +2,11 @@
 <html lang="en">
 
 <head>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Your Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
     <meta charset="UTF-8">
     <title>Productivity Tips for College Students</title>
     <link rel="stylesheet" href="css/style.css">
@@ -19,40 +24,54 @@
         </nav>
     </header>
 
-    <main class="flex-container">
+    <main class="container my-5">
 
-        <section id="intro" class="content-section">
+    <div class="row align-items-start">
 
-            <h2>Introduction</h2>
-            <p>
-                College life can be overwhelming with classes, work, and social responsibilities.
-                Learning how to manage time effectively can reduce stress and improve academic performance.
-            </p>
+        <div class="col-md-6">
+            <section id="intro" class="content-section card p-4 shadow-sm h-100">
 
-            <p>
-                These productivity tips are designed to help students stay focused while still maintaining
-                a healthy balance between school and personal life.
-            </p>
+                <h2 class="mb-3">Introduction</h2>
 
-            <p class="highlight-text">
-                These tips are especially helpful during finals week.
-            </p>
-        </section>
+                <p>
+                    College life can be overwhelming with classes, work, and social responsibilities.
+                    Learning how to manage time effectively can reduce stress and improve academic performance.
+                </p>
 
-        <section id="tips" class="content-section">
-            
-            <h2>Helpful Productivity Habits</h2>
+                <p>
+                    These productivity tips are designed to help students stay focused while still maintaining
+                    a healthy balance between school and personal life.
+                </p>
 
-            <ul>
-                <li>Using a planner or digital calendar</li>
-                <li>Breaking assignments into smaller tasks</li>
-                <li>Taking regular breaks while studying</li>
-            </ul>
+                <p class="highlight-text fw-bold">
+                    These tips are especially helpful during finals week.
+                </p>
 
-            <img src="images/studying.jpeg" alt="College student studying at a desk with a laptop and notebook during finals week">
-        </section>
+            </section>
+        </div>
 
-    </main>
+        <div class="col-md-6">
+            <section id="tips" class="content-section card p-4 shadow-sm h-100">
+
+                <h2 class="mb-3">Helpful Productivity Habits</h2>
+
+                <ul class="mb-3">
+                    <li>Using a planner or digital calendar</li>
+                    <li>Breaking assignments into smaller tasks</li>
+                    <li>Taking regular breaks while studying</li>
+                </ul>
+
+                <img 
+                    src="images/studying.jpeg" 
+                    alt="College student studying at a desk with a laptop and notebook during finals week"
+                    class="img-fluid rounded">
+
+            </section>
+        </div>
+
+    </div>
+
+</main>
 
     <footer>
         <a href="page2.html">Learn advanced productivity strategies</a>
