@@ -22,14 +22,6 @@ footer {
     padding: 15px;
 }
 
-.content-section {
-    padding: 20px;
-    margin: 20px 0;
-    background-color: white;
-    border-radius: 8px;
-}
-
-
 #intro {
     border-left: 5px solid #008cff;
 }
@@ -69,17 +61,14 @@ footer {
     padding: 25px;
 }
 
-.btn-primary {
-    background-color: #123a6b;
-    border-color: #123a6b;
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #0f2f56;
+    border-color: #0f2f56;
 }
 
 /* Responsive design for smaller screens */
 @media (max-width: 768px) {
-
-    body {
-        font-size: 14px;
-    }
 
     header {
         padding: 10px;
