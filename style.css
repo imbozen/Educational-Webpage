@@ -4,7 +4,7 @@ body {
 }
 
 header {
-     background-color: #123a6b;  /* darker */
+     background-color: #123a6b !important;  /* darker */
     color: whitesmoke;
     padding: 20px;
     text-align: center;
@@ -100,7 +100,7 @@ header a:focus {
 }
 
 header a {
-    color: #ffffff;
+    color: #123a6b;
     font-weight: bold;
     text-decoration: none;
 }
